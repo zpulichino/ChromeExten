@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Text Rewriter</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        min-width: 300px;
+      }
+      h2 {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+      p {
+        margin-bottom: 8px;
+      }
+      button {
+        padding: 4px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Type of Text</h2>
+    <select id="textType">
+      <option value="Product Title">Product Title</option>
+      <option value="Product Description">Product Description</option>
+      <option value="Other">Other</option>
+    </select>
+    <h2>Highlighted Text</h2>
+    <p id="highlightedText"></p>
+    <h2>Rewritten Text</h2>
+    <p id="rewrittenText"></p>
+    <button id="rewriteButton">Rewrite</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
